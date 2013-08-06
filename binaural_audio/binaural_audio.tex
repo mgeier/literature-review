@@ -1,0 +1,43 @@
+\documentclass[a4paper]{article}
+
+\usepackage{natbib}
+\usepackage{bibentry}
+\nobibliography*
+
+\newcommand{\bibpara}[1]{%
+\paragraph{\cite{#1}}
+\bibentry{#1}\par}
+
+\title{Binaural Audio -- Some Literature}
+\author{Matthias Geier}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+A (more or less) chronological (and very incomplete) list of references with
+some (of course totally biased) comments.
+In the end there is the same list sorted by author.
+\end{abstract}
+
+\bibpara{rayleigh1907sound_direction}
+
+The famous ``Duplex Theory''.
+
+\bibpara{wenzel1988development}
+
+Announcement of the ``Convolvotron'', not yet real-time.
+
+\bibpara{wenzel1990convolvotron}
+
+Probably the first real-time system (with head-tracking) for HRIR-convolution?
+The device is called ``Convolvotron'', which is undoubtedly cool.
+
+\bibpara{moller1992fundamentals}
+
+\bibliographystyle{plainnat}
+\bibliography{binaural_audio}
+
+\end{document}
+
+% vim:textwidth=80
