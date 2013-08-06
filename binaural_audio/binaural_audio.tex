@@ -4,9 +4,10 @@
 \usepackage{bibentry}
 \nobibliography*
 
-\newcommand{\bibpara}[1]{%
-\paragraph{\cite{#1}}
-\bibentry{#1}\par}
+% Fix sorting for 'Lord Rayleigh':
+\providecommand{\noopsort}[1]{}
+
+\newcommand{\bibpara}[1]{\paragraph{\cite{#1}}\bibentry{#1}\par}
 
 \title{Binaural Audio -- Some Literature}
 \author{Matthias Geier}
