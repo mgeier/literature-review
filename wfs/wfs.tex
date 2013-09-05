@@ -1,0 +1,80 @@
+\documentclass[a4paper]{article}
+
+\usepackage{hyperref}
+\hypersetup{colorlinks,citecolor=,urlcolor=,linkcolor=}
+
+\usepackage{natbib}
+\usepackage{bibentry}
+\nobibliography*
+
+\newcommand{\bibpara}[1]{\paragraph{\cite{#1}}\bibentry{#1}\par}
+
+\title{Wave Field Synthesis -- Some Literature}
+\author{Matthias Geier}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+A (more or less) chronological (and very incomplete) list of references with
+some (of course totally biased) comments.
+In the end there is the same list sorted by author.
+All this is work-in-progress.
+\end{abstract}
+
+\bibpara{berkhout1988holographic}
+
+\bibpara{berkhout1993wfs}
+
+\bibpara{vogel1993wfs}
+
+\bibpara{start1997wfs}
+
+\bibpara{verheijen1998wfs}
+
+\bibpara{labeeuw1998optimization}
+
+\bibpara{sonke2000variable}
+
+\bibpara{wittek2002opsi}
+
+\bibpara{hulsebos2004auralization}
+
+\bibpara{springer2006stereo_displays}
+
+WFS combined with VR. Two people are tracked with an optical tracking system.
+Stereoscopic shutter glasses.
+
+\bibpara{corteel2006equalization}
+
+\bibpara{corteel2007directional}
+
+\bibpara{spors2007selection}
+
+\bibpara{ahrens2007directional}
+
+\bibpara{melchior2008optimization}
+
+Tracked (single) user position, source directivity, room simulation.
+3 optimizations: secondary source selection, delay correction, amplitude
+correction.
+Pilot study: ``improved localization and sound quality for focused sources''.
+2 experiments:
+one with walking around a focused source and
+the other with 8
+plane waves to find out if amplitudes are evenly distributed(``perceived
+diffuseness'').
+Extension to more than one listener, ``center of gravity'', only works if
+listeners are close together.
+
+\bibpara{leslie2009installations}
+
+Optically tracked input devices plus Wiimote.
+
+\bibliographystyle{plainnat}
+\bibliography{wfs}
+
+\end{document}
+
+% vim:textwidth=80
