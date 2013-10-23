@@ -1,0 +1,36 @@
+\documentclass[a4paper]{article}
+
+\usepackage{hyperref}
+\hypersetup{colorlinks,citecolor=,urlcolor=,linkcolor=}
+
+\usepackage{natbib}
+\usepackage{bibentry}
+\nobibliography*
+
+\newcommand{\bibpara}[1]{\paragraph{\cite{#1}}\bibentry{#1}\par}
+
+\title{Stereo, Surround, Panning, \dots\ -- Some Literature}
+\author{Matthias Geier}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+A (more or less) chronological (and very incomplete) list of references with
+some (of course totally biased) comments.
+In the end there is the same list sorted by author.
+All this is work-in-progress.
+\end{abstract}
+
+\bibpara{theile1980lokalisation}
+There is also an English version available as
+\emph{``On the Localisation in the Superimposed Soundfield''},
+translated by Tobias Neher
+
+\bibliographystyle{plainnat}
+\bibliography{panning}
+
+\end{document}
+
+% vim:textwidth=80
