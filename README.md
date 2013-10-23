@@ -1,4 +1,5 @@
-# My Literature Reviews
+My Literature Reviews
+=====================
 
 Here I'm collecting some literature references.
 
@@ -18,12 +19,14 @@ Online PDFs are generated using http://latex.aslushnikov.com/.
   rights to this work.
 </p>
 
-## Binaural Audio
+Binaural Audio
+--------------
 
 [PDF](http://latex.aslushnikov.com/compile?git=https://github.com/mgeier/literature-review&target=binaural_audio/binaural_audio.tex&download=mgeier_binaural_audio.pdf)
 [BIB](https://raw.github.com/mgeier/literature-review/master/binaural_audio/binaural_audio.bib)
 
-## Wave Field Synthesis
+Wave Field Synthesis
+--------------------
 
 [PDF](http://latex.aslushnikov.com/compile?git=https://github.com/mgeier/literature-review&target=wfs/wfs.tex&download=mgeier_wfs.pdf)
 [BIB](https://raw.github.com/mgeier/literature-review/master/wfs/wfs.bib)
