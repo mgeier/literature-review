@@ -9,6 +9,10 @@
 
 \newcommand{\bibpara}[1]{\paragraph{\cite{#1}}\bibentry{#1}\par}
 
+\hyphenation{
+Schall-feld-syn-the-se
+}
+
 \title{Wave Field Synthesis -- Some Literature}
 \author{Matthias Geier}
 \date{}
@@ -20,7 +24,12 @@
 A (more or less) chronological (and very incomplete) list of references with
 some (of course totally biased) comments.
 In the end there is the same list sorted by author.
-All this is work-in-progress.
+In between there are some links to some open-source software which can do WFS.
+
+All this is work-in-progress!
+
+If you find errors or omissions, please create an
+issue or a pull request: \url{https://github.com/mgeier/literature-review}
 \end{abstract}
 
 \bibpara{berkhout1988holographic}
@@ -57,6 +66,8 @@ Stereoscopic shutter glasses.
 
 \bibpara{ahrens2007directional}
 
+\bibpara{spors2008wfs}
+
 \bibpara{melchior2008optimization}
 Tracked (single) user position, source directivity, room simulation.
 3 optimizations: secondary source selection, delay correction, amplitude
@@ -84,7 +95,57 @@ Only linear loudspeaker arrays are considered.
 
 \bibpara{wierstorf2012localization}
 
+\bibpara{ahrens2012analytic}
+
+\bibpara{blauert2012synopsis}
+Nice overview about loudspeaker-based techniques like HOA, VBAP, WFS, DirAC, ...
+
 \bibpara{fohl2013gesture}
+
+\section*{Open-Source Software for WFS}
+
+This is roughly sorted chronologically and surely incomplete.
+
+\subsection*{WONDER}
+
+\url{http://sourceforge.net/projects/swonder/}\\
+\url{https://github.com/davezerave/wonder/}
+
+\bibpara{baalman2004wonder}
+\bibpara{baalman2005updates}
+\bibpara{baalman2006swonder3dq}
+\bibpara{baalman2007renewed}
+
+\subsection*{WFSCollider}
+
+\url{https://github.com/GameOfLife/WFSCollider/}\\
+\url{http://sourceforge.net/projects/wfscollider/}\\
+\url{http://gameoflife.nl/en}
+
+since 2006?
+
+\subsection*{WFSynth}
+
+\url{http://wfsynth.sourceforge.net/}
+
+\bibpara{wolcott2007wfs}
+
+\subsection*{SoundScape Renderer (SSR)}
+
+\url{http://spatialaudio.net/ssr/}\\
+\url{https://github.com/SoundScapeRenderer/ssr/}
+
+Development since 2006, first public release in 2010.
+
+\bibpara{geier2008ssr}
+\bibpara{geier2012ssr}
+
+\subsection*{WFS Designer}
+
+\url{http://www.mattmontag.com/projects-page/wfs-designer}\\
+\url{https://github.com/mmontag/WFS-Designer}
+
+\bibpara{montag2011wfs}
 
 \bibliographystyle{plainnat}
 \bibliography{wfs}
